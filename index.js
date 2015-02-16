@@ -12,7 +12,7 @@ var client = new Twitter({
 
 var url = process.env.MONGO_URL;
 
-client.stream('statuses/filter', {track: 'codinghouse, coding house'}, function(stream) {
+client.stream('statuses/filter', {track: 'codinghouse'}, function(stream) {
   MongoClient.connect(url, function(err, db) {
     assert.equal(null, err);
     console.log("Connected correctly to server");
