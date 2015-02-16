@@ -22,7 +22,8 @@
   "dependencies": {
     "connect": "^3.3.4",
     "morgan": "^1.5.1",
-    "serve-static": "^1.8.1"
+    "serve-static": "^1.8.1",
+    "twitter": "^1.2.1"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
