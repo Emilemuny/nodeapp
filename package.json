@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "connect": "^3.3.4",
+    "mongodb": "^1.4.31",
     "morgan": "^1.5.1",
     "serve-static": "^1.8.1",
     "twitter": "^1.2.1"
